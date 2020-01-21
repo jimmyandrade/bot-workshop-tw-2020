@@ -1,3 +1,3 @@
 module.exports = {
-  webhookPaylodValidator: require("./webhookPayloadValidator")
+  webhookPayloadValidator: require("./webhookPayloadValidator")
 }

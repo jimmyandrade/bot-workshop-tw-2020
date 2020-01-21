@@ -8,7 +8,7 @@ class ActionBeerRecommendation {
   }
 
   get actionName() {
-    return 'getBeerRecomendation';
+    return 'getBeerRecommendation';
   }
 
   async handle({ kind, dish, bitterness, alcohol }) {

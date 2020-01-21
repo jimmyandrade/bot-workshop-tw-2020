@@ -2,13 +2,13 @@ const ActionLookupWeather = require('../src/actionHandlers/actionLookupWeather')
 
 describe('ActionLookupWeather', () => {
   let action;
-  let weatherSeviceMock;
+  let weatherServiceMock;
 
   beforeEach(() => {
-    weatherSeviceMock = {
+    weatherServiceMock = {
       lookupWeather: jest.fn(),
     };
-    action = new ActionLookupWeather(weatherSeviceMock);
+    action = new ActionLookupWeather(weatherServiceMock);
   });
 
   it("should have correct name", () => {
@@ -18,15 +18,15 @@ describe('ActionLookupWeather', () => {
   it("should lookup weather of city in service", () => {
     action.handle({ city: "foo" });
 
-    expect(weatherSeviceMock.lookupWeather.mock.calls.length).toBe(1);
-    expect(weatherSeviceMock.lookupWeather.mock.calls[0][0]).toBe("foo");
+    expect(weatherServiceMock.lookupWeather.mock.calls.length).toBe(1);
+    expect(weatherServiceMock.lookupWeather.mock.calls[0][0]).toBe("foo");
   });
 
   it("should return weather obtained in service", async () => {
-    weatherSeviceMock.lookupWeather.mockReturnValue(
+    weatherServiceMock.lookupWeather.mockReturnValue(
       Promise.resolve({ foo: "bar" })
     );
-    var { weather } = await action.handle({ city: "foo" });
+    const {weather} = await action.handle({city: "foo"});
 
     expect(weather).toEqual({ foo: "bar" });
   });

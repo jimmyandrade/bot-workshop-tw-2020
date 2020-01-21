@@ -8,7 +8,6 @@ class ActionMediator {
     if (!handler) {
       throw new Error(`Could not find a handler for action '${action}'.`);
     }
-
     return handler.handle(parameters);
   }
 }

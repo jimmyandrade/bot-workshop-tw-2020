@@ -10,6 +10,7 @@
       "automerge": true
     }
   ],
+  "schedule": "every weekend",
   "semanticCommits": true,
   "unicodeEmoji": true,
   "updateLockFiles": true

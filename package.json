@@ -20,7 +20,7 @@
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "yup": "^0.28.0",
-    "lodash": "latest"
+    "lodash": "4.17.21"
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^8.3.4",

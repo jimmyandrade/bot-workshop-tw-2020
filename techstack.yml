@@ -1,11 +1,12 @@
 repo_name: jimmyandrade/bot-workshop-tw-2020
 report_id: 3a56c99bbb403b130dc7a81ab4042a9d
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-10T15:50:27+00:00'
+timestamp: '2024-01-05T08:53:09+00:00'
 requested_by: jimmyandrade
 provider: github
 branch: master
-detected_tools_count: 20
+detected_tools_count: 22
 tools:
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/jimmyandrade/bot-workshop-tw-2020
   detection_source: Repo Metadata
 - name: ExpressJS
   description: Sinatra inspired web development framework for node.js -- insanely
@@ -28,7 +30,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Microframeworks (Backend)
   image_url: https://img.stackshare.io/service/1163/hashtag.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/jimmyandrade/bot-workshop-tw-2020/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Lucas Bragança
   last_updated_on: 2020-01-20 23:40:35.000000000 Z
@@ -41,6 +43,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Server Configuration and Automation
   image_url: https://img.stackshare.io/service/8067/default_90dcb1286af7685c68df319c764b80704df1155b.png
+  detection_source_url: https://github.com/jimmyandrade/bot-workshop-tw-2020/blob/master/package.json
   detection_source: package.json
   last_updated_by: Lucas Bragança
   last_updated_on: 2020-01-20 23:40:35.000000000 Z
@@ -53,6 +56,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/jimmyandrade/bot-workshop-tw-2020/blob/master/package.json
   detection_source: package.json
   last_updated_by: Lucas Bragança
   last_updated_on: 2020-01-20 23:40:35.000000000 Z
@@ -64,6 +68,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/jimmyandrade/bot-workshop-tw-2020
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -73,6 +78,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/jimmyandrade/bot-workshop-tw-2020/blob/master/.github/workflows/nodejs.yml
   detection_source: ".github/workflows/nodejs.yml"
   last_updated_by: Jimmy Andrade
   last_updated_on: 2020-01-21 21:08:15.000000000 Z
@@ -86,7 +92,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/service/830/jest.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/jimmyandrade/bot-workshop-tw-2020/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Lucas Bragança
   last_updated_on: 2020-01-20 23:40:35.000000000 Z
@@ -100,7 +106,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/no-img-open-source.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/jimmyandrade/bot-workshop-tw-2020/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Lucas Bragança
   last_updated_on: 2020-01-20 23:40:35.000000000 Z
@@ -113,6 +119,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/jimmyandrade/bot-workshop-tw-2020/blob/master/.travis.yml
   detection_source: ".travis.yml"
   last_updated_by: Jimmy Andrade
   last_updated_on: 2020-01-21 21:18:57.000000000 Z
@@ -126,7 +133,7 @@ tools:
   category: Monitoring
   sub_category: node.js Application Monitoring
   image_url: https://img.stackshare.io/service/5577/preview.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/jimmyandrade/bot-workshop-tw-2020/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Lucas Bragança
   last_updated_on: 2020-01-20 23:40:35.000000000 Z
@@ -138,6 +145,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/jimmyandrade/bot-workshop-tw-2020/blob/master/package.json
   detection_source: package.json
   last_updated_by: Lucas Bragança
   last_updated_on: 2020-01-20 23:40:35.000000000 Z
@@ -150,7 +158,7 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/service/2438/lodash.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/jimmyandrade/bot-workshop-tw-2020/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Jimmy Andrade
   last_updated_on: 2020-01-21 20:53:21.000000000 Z
@@ -164,7 +172,7 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/no-img-open-source.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/jimmyandrade/bot-workshop-tw-2020/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Lucas Bragança
   last_updated_on: 2020-01-20 23:40:35.000000000 Z
@@ -173,6 +181,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/9527/5502029.jpeg
+  detection_source_url: https://github.com/jimmyandrade/bot-workshop-tw-2020/blob/master/package.json
   detection_source: package.json
   last_updated_by: Jimmy Andrade
   last_updated_on: 2020-01-21 20:53:21.000000000 Z
@@ -181,6 +190,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/10756/339286.png
+  detection_source_url: https://github.com/jimmyandrade/bot-workshop-tw-2020/blob/master/package.json
   detection_source: package.json
   last_updated_by: Lucas Bragança
   last_updated_on: 2020-01-20 23:40:35.000000000 Z
@@ -194,7 +204,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16092/default_8725384794b44fe56f31da1d21ae759cf07be7a5.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/jimmyandrade/bot-workshop-tw-2020/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Jimmy Andrade
   last_updated_on: 2020-01-21 20:53:21.000000000 Z
@@ -208,7 +218,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15840/default_004658cda9b38934f2871435e9dc15608c86e8be.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/jimmyandrade/bot-workshop-tw-2020/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Lucas Bragança
   last_updated_on: 2020-01-20 23:40:35.000000000 Z
@@ -222,7 +232,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15888/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/jimmyandrade/bot-workshop-tw-2020/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Jimmy Andrade
   last_updated_on: 2020-01-21 20:53:21.000000000 Z
@@ -236,7 +246,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15806/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/jimmyandrade/bot-workshop-tw-2020/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Jimmy Andrade
   last_updated_on: 2020-01-21 20:53:21.000000000 Z
@@ -250,7 +260,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/jimmyandrade/bot-workshop-tw-2020/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Lucas Bragança
   last_updated_on: 2020-01-20 23:40:35.000000000 Z
@@ -261,3 +271,31 @@ tools:
     detected_date: Dec 7
     severity: high
     first_patched: 4.17.3
+- name: husky
+  description: Prevents bad commit or push
+  package_url: https://www.npmjs.com/husky
+  version: 4.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15831/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/jimmyandrade/bot-workshop-tw-2020/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Jimmy Andrade
+  last_updated_on: 2020-01-21 20:53:21.000000000 Z
+- name: yup
+  description: Dead simple Object schema validation
+  package_url: https://www.npmjs.com/yup
+  version: 0.28.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17215/default_37d9ccc57ae4d32e7ff46614e4f8bb2c4ddc7964.png
+  detection_source_url: https://github.com/jimmyandrade/bot-workshop-tw-2020/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Lucas Bragança
+  last_updated_on: 2020-01-20 23:40:35.000000000 Z

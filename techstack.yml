@@ -2,7 +2,7 @@ repo_name: jimmyandrade/bot-workshop-tw-2020
 report_id: 3a56c99bbb403b130dc7a81ab4042a9d
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-05T08:53:09+00:00'
+timestamp: '2024-02-29T18:36:19+00:00'
 requested_by: jimmyandrade
 provider: github
 branch: master
@@ -97,7 +97,7 @@ tools:
   last_updated_by: Lucas Bragança
   last_updated_on: 2020-01-20 23:40:35.000000000 Z
 - name: SuperTest
-  description: 'A library for testing node.js HTTP servers '
+  description: A library for testing node.js HTTP servers
   website_url: https://www.npmjs.com/package/supertest
   version: 4.0.2
   license: MIT
